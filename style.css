@@ -49,10 +49,44 @@ body {
 	color: white;
 }
 .col-md-3:last-child{
-	width: 15%;
-	margin: 10px;
+	padding: 15px;
+
 	float: left;
-	border: ; 
-	opacity: 0.5;
-	outline: 1px solid #2c71b8;
+	 
+	position: relative;
 }
+.search{
+	width: 150px;
+	border: 1px solid #2c71b8;
+	min-height:30px;
+}
+
+   input[type="text"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 124px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+   }
+   input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(images/search.png) no-repeat 50% 50%; /* Параметры фона */
+   }
+.dropmenu:hover .podmenu { 
+	display: block; 
+}
+
+.dropmenu {
+	display: inline-block;
+	position: relative;
+}
+.podmenu {
+	display: none;
+}
+
+
+
+
+
